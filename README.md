@@ -9,7 +9,7 @@ To represent the position of the queens on the chess board I chose to use an arr
 
 | | col1 | col2 | col3 | col4 |
 | --- | --- | --- | --- | --- |
-| row3 | | Q | Q | |  
+| **row3** | | Q | Q | |  
 | row2 | | | | Q |  
 | row1 | | | | |  
 | row0 | Q | | | |  
