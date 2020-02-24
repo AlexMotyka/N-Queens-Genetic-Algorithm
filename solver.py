@@ -117,7 +117,7 @@ def main():
         next_gen.extend(population[:elites])
 
         # select the top 50% of the population for mating
-        mating_pop = int((50*POPULATION_SIZE)/100)
+        mating_pop = int((90*POPULATION_SIZE)/100)
         for individual in range(mating_pop):
             parent1 = random.choice(population[:50])
             parent2 = random.choice(population[:50])
