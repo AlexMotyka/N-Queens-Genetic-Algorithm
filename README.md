@@ -6,10 +6,10 @@ This is a genetic algorithm that finds a solution to the famous N-Queens problem
 
 To represent the position of the queens on the chess board I chose to use an array. The index of the array specifies the column of the queen, and the value at that index represents the row the queen is on. Take for example the array [0, 3, 3, 2]. This array represents a 4x4 chessboard with four queens on it. The first queen is on (column 0, row 0), second queen is on (column 1, row 3), the third is on (column 2, row 3), and the fourth is on (column 3, row 2).
  
-|_|Q|Q|_|
-|_|_|_|Q|
-|_|_|_|_|
-|Q|_|_|_|
+- |_|Q|Q|_|
+- |_|_|_|Q|
+- |_|_|_|_|
+- |Q|_|_|_|
 
 ## The Chromosome
 
