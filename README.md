@@ -18,11 +18,11 @@ The fitness calculation moves through each queen in the chromosome and checks it
 
 ## The Algorithm
 
-#### Initialize
+### Initialize
 - First an N value, and population size is specified. 
 - Next the initial population is created and stored in an array. The population members will be instances of the Individual class with randomly generated chromosomes
 
-#### Evolution
+### Evolution
 - Until we find a member with a fitness of 0 we will execute the evolution process
 - Sort the population in ascending order of fitness (From fittest to least fit)
 - Check if the fittest member has a fitness score of 0. If it does stop the evolution and print the result, else continue.
