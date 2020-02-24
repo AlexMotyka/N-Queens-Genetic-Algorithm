@@ -16,10 +16,14 @@ class Individual(object):
         self.chromosome = chromosome
         self.fitness = self.calc_fitness()
 
+
+
     def mutate(self):
         # random mutation in the gene
         global N
         return random.randint(0, N-1)
+
+
 
     def mate(self, parent2):
         # child chromosome
@@ -28,13 +32,15 @@ class Individual(object):
         for gene1, gene2 in zip(self.chromosome, parent2.chromosome):
             probability = random.random()
             # based on probability choose gene from parent1, parent2, or mutate
-            if probability < 0.45:
+            if probability < 0.4:
                 child.append(gene1)
-            elif probability < 0.90:
+            elif probability < 0.8:
                 child.append(gene2)
             else:
                 child.append(self.mutate())
         return Individual(child)
+
+
 
     def calc_fitness(self):
         '''
@@ -69,6 +75,8 @@ class Individual(object):
             x1 += 1
         return fitness
 
+
+
 # create a chromosome with random genes
 def createChromosome():
     global N
@@ -77,6 +85,8 @@ def createChromosome():
         # random int between 0 and the Chessboard size
         chromosome.append(random.randint(0, N-1))
     return chromosome
+
+
 
 def main():
     global POPULATION_SIZE
