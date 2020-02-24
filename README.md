@@ -27,8 +27,11 @@ The fitness calculation moves through each queen in the chromosome and checks it
 - Sort the population in ascending order of fitness (From fittest to least fit)
 - Check if the fittest member has a fitness score of 0. If it does stop the evolution and print the result, else continue.
 - Create an array for the next generation. This generation will have the exact same size as the current population.
-- Select the top 10% of the cureent population. These are the elite who survive and are will continue into the next generation.
+#### Selection
+- Select the top 10% of the current population. These are the elite who survive and are will continue into the next generation.
 
 #### Crossover & Mutation
-- Take the top 50% of the population and let them mate to fill up the remaining 90% of the next generation population with children. When the children's chromosomes are created each gene has a a 45% chance to be parent 1's gene, a 45% chance to be parent 2's gene, and a 10% chance to be a randomly mutated gene
+- Take the top 50% of the population and let them mate to fill up the remaining 90% of the next generation population with children. When the children's chromosomes are created each gene has a a 45% chance to be parent 1's gene, a 45% chance to be parent 2's gene, and a 10% chance to be a randomly mutated gene.
+- Destroy the old population, the new generation now becomes the current population and the evolution cycle happens again.
+
 
