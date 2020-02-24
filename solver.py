@@ -1,7 +1,7 @@
 import random
 
-N = 8
-POPULATION_SIZE = 50
+N = 4
+POPULATION_SIZE = 1
 
 class Individual(object):
 
@@ -11,7 +11,28 @@ class Individual(object):
 
     # calculate the fitness score which is the number of queen conflicts
     def calc_fitness(self):
+        global N
+        # initial fitness is perfect 0
         fitness = 0
+        # column of current queen
+        x1 = 0
+
+        # loop through the queens to check for collisions
+        for y1 in self.chromosome:
+            # the column of the next queen
+            x2 = x1 + 1
+            # loop through the remaing queens in the chromosome
+            while x2 < N:
+                # the row value at index x2
+                y2 = self.chromosome[x2]
+                # check for horizontal collision (same row)
+                if y1 == y2:
+                    fitness += 1
+                # check for diagonal collision by comparing magnitudes
+                elif abs(x1 - x2) == abs(y1-y2):
+                    fitness += 1
+                x2 += 1
+            x1 += 1
         return fitness
 
 # create a chromosome with random genes
@@ -35,7 +56,8 @@ def main():
         chromosome = createChromosome()
         population.append(Individual(chromosome))
 
-    print(population.chromosome)
+    print(population[0].chromosome)
+    print(population[0].fitness)
 
 if __name__ == '__main__':
     main()
