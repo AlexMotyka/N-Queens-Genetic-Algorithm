@@ -116,12 +116,13 @@ def main():
         elites = int((10*POPULATION_SIZE)/100)
         next_gen.extend(population[:elites])
 
-        # select the top 50% of the population for mating
+        # we need to fill the remaining 90% of the next generation with children
         mating_pop = int((90*POPULATION_SIZE)/100)
         for individual in range(mating_pop):
+            # select parents from the top 50% of the population for mating
             parent1 = random.choice(population[:50])
             parent2 = random.choice(population[:50])
-            # the child is created and add to the next generation
+            # the child is created and added to the next generation
             child = parent1.mate(parent2)
             next_gen.append(child)
 
