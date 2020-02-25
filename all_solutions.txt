@@ -1,0 +1,1076 @@
+[1, 3, 5, 7, 2, 0, 6, 4]
+1
+[3, 5, 7, 1, 6, 0, 2, 4]
+2
+[2, 5, 7, 0, 3, 6, 4, 1]
+3
+[0, 4, 7, 5, 2, 6, 1, 3]
+4
+[2, 5, 3, 1, 7, 4, 6, 0]
+5
+[6, 1, 5, 2, 0, 3, 7, 4]
+6
+[2, 4, 6, 0, 3, 1, 7, 5]
+7
+[4, 0, 7, 3, 1, 6, 2, 5]
+8
+[4, 2, 0, 5, 7, 1, 3, 6]
+9
+[1, 4, 6, 0, 2, 7, 5, 3]
+10
+Already existing solution found
+10
+[3, 6, 0, 7, 4, 1, 5, 2]
+11
+Already existing solution found
+11
+[2, 4, 1, 7, 0, 6, 3, 5]
+12
+[5, 7, 1, 3, 0, 6, 4, 2]
+13
+[4, 1, 5, 0, 6, 3, 7, 2]
+14
+[3, 7, 0, 2, 5, 1, 6, 4]
+15
+[1, 6, 4, 7, 0, 3, 5, 2]
+16
+[6, 3, 1, 7, 5, 0, 2, 4]
+17
+[2, 5, 3, 0, 7, 4, 6, 1]
+18
+[2, 5, 7, 0, 4, 6, 1, 3]
+19
+Already existing solution found
+19
+[2, 7, 3, 6, 0, 5, 1, 4]
+20
+[2, 6, 1, 7, 5, 3, 0, 4]
+21
+[5, 1, 6, 0, 2, 4, 7, 3]
+22
+Already existing solution found
+22
+[6, 2, 0, 5, 7, 4, 1, 3]
+23
+Already existing solution found
+23
+[4, 2, 0, 6, 1, 7, 5, 3]
+24
+[2, 4, 1, 7, 5, 3, 6, 0]
+25
+Already existing solution found
+25
+Already existing solution found
+25
+[6, 1, 3, 0, 7, 4, 2, 5]
+26
+[7, 3, 0, 2, 5, 1, 6, 4]
+27
+[3, 1, 6, 4, 0, 7, 5, 2]
+28
+Already existing solution found
+28
+Already existing solution found
+28
+[4, 2, 7, 3, 6, 0, 5, 1]
+29
+[5, 3, 1, 7, 4, 6, 0, 2]
+30
+[4, 6, 0, 3, 1, 7, 5, 2]
+31
+[4, 6, 3, 0, 2, 7, 5, 1]
+32
+[4, 1, 3, 6, 2, 7, 5, 0]
+33
+[3, 5, 7, 2, 0, 6, 4, 1]
+34
+[3, 1, 4, 7, 5, 0, 2, 6]
+35
+[4, 0, 3, 5, 7, 1, 6, 2]
+36
+Already existing solution found
+36
+[5, 3, 6, 0, 7, 1, 4, 2]
+37
+Already existing solution found
+37
+Already existing solution found
+37
+[5, 1, 6, 0, 3, 7, 4, 2]
+38
+Already existing solution found
+38
+[4, 6, 1, 3, 7, 0, 2, 5]
+39
+[1, 4, 6, 3, 0, 7, 5, 2]
+40
+Already existing solution found
+40
+[4, 6, 0, 2, 7, 5, 3, 1]
+41
+Already existing solution found
+41
+[1, 5, 7, 2, 0, 3, 6, 4]
+42
+[4, 7, 3, 0, 6, 1, 5, 2]
+43
+Already existing solution found
+43
+[3, 1, 7, 5, 0, 2, 4, 6]
+44
+Already existing solution found
+44
+[3, 7, 0, 4, 6, 1, 5, 2]
+45
+Already existing solution found
+45
+Already existing solution found
+45
+Already existing solution found
+45
+[3, 1, 6, 2, 5, 7, 4, 0]
+46
+[0, 6, 3, 5, 7, 1, 4, 2]
+47
+[5, 3, 0, 4, 7, 1, 6, 2]
+48
+[5, 2, 4, 7, 0, 3, 1, 6]
+49
+Already existing solution found
+49
+Already existing solution found
+49
+Already existing solution found
+49
+[4, 1, 3, 5, 7, 2, 0, 6]
+50
+Already existing solution found
+50
+Already existing solution found
+50
+[3, 6, 4, 1, 5, 0, 2, 7]
+51
+Already existing solution found
+51
+Already existing solution found
+51
+Already existing solution found
+51
+Already existing solution found
+51
+[2, 5, 1, 6, 4, 0, 7, 3]
+52
+Already existing solution found
+52
+Already existing solution found
+52
+Already existing solution found
+52
+[2, 6, 1, 7, 4, 0, 3, 5]
+53
+[7, 1, 4, 2, 0, 6, 3, 5]
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+Already existing solution found
+54
+[4, 0, 7, 5, 2, 6, 1, 3]
+55
+[6, 4, 2, 0, 5, 7, 1, 3]
+56
+Already existing solution found
+56
+Already existing solution found
+56
+[4, 6, 1, 5, 2, 0, 7, 3]
+57
+[3, 1, 7, 4, 6, 0, 2, 5]
+58
+[3, 1, 6, 2, 5, 7, 0, 4]
+59
+Already existing solution found
+59
+Already existing solution found
+59
+[2, 5, 7, 1, 3, 0, 6, 4]
+60
+Already existing solution found
+60
+Already existing solution found
+60
+[3, 0, 4, 7, 1, 6, 2, 5]
+61
+Already existing solution found
+61
+[0, 6, 4, 7, 1, 3, 5, 2]
+62
+Already existing solution found
+62
+Already existing solution found
+62
+Already existing solution found
+62
+[5, 2, 4, 6, 0, 3, 1, 7]
+63
+[2, 4, 7, 3, 0, 6, 1, 5]
+64
+Already existing solution found
+64
+[5, 2, 6, 3, 0, 7, 1, 4]
+65
+Already existing solution found
+65
+[5, 2, 6, 1, 3, 7, 0, 4]
+66
+[6, 2, 7, 1, 4, 0, 5, 3]
+67
+Already existing solution found
+67
+Already existing solution found
+67
+Already existing solution found
+67
+Already existing solution found
+67
+Already existing solution found
+67
+[2, 5, 1, 6, 0, 3, 7, 4]
+68
+Already existing solution found
+68
+[4, 7, 3, 0, 2, 5, 1, 6]
+69
+[5, 2, 0, 6, 4, 7, 1, 3]
+70
+Already existing solution found
+70
+[4, 1, 7, 0, 3, 6, 2, 5]
+71
+Already existing solution found
+71
+[4, 6, 1, 5, 2, 0, 3, 7]
+72
+[3, 0, 4, 7, 5, 2, 6, 1]
+73
+Already existing solution found
+73
+Already existing solution found
+73
+Already existing solution found
+73
+[5, 2, 0, 7, 3, 1, 6, 4]
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+Already existing solution found
+74
+[2, 0, 6, 4, 7, 1, 3, 5]
+75
+[1, 7, 5, 0, 2, 4, 6, 3]
+76
+Already existing solution found
+76
+[3, 5, 0, 4, 1, 7, 2, 6]
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+Already existing solution found
+77
+[6, 0, 2, 7, 5, 3, 1, 4]
+78
+[7, 1, 3, 0, 6, 4, 2, 5]
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+Already existing solution found
+79
+[7, 2, 0, 5, 1, 4, 6, 3]
+80
+Already existing solution found
+80
+Already existing solution found
+80
+Already existing solution found
+80
+[5, 0, 4, 1, 7, 2, 6, 3]
+81
+Already existing solution found
+81
+Already existing solution found
+81
+[1, 6, 2, 5, 7, 4, 0, 3]
+82
+Already existing solution found
+82
+[5, 2, 6, 1, 7, 4, 0, 3]
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+Already existing solution found
+83
+[1, 5, 0, 6, 3, 7, 2, 4]
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+Already existing solution found
+84
+[5, 2, 0, 7, 4, 1, 3, 6]
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+Already existing solution found
+85
+[3, 7, 4, 2, 0, 6, 1, 5]
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+Already existing solution found
+86
+[5, 3, 6, 0, 2, 4, 1, 7]
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+Already existing solution found
+87
+[2, 5, 1, 4, 7, 0, 6, 3]
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+Already existing solution found
+88
+[3, 6, 2, 7, 1, 4, 0, 5]
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+Already existing solution found
+89
+[6, 3, 1, 4, 7, 0, 2, 5]
+90
+Already existing solution found
+90
+Already existing solution found
+90
+Already existing solution found
+90
+[3, 6, 4, 2, 0, 5, 7, 1]
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+Already existing solution found
+91
+[0, 5, 7, 2, 6, 3, 1, 4]
+92
+[[1, 3, 5, 7, 2, 0, 6, 4], [3, 5, 7, 1, 6, 0, 2, 4], [2, 5, 7, 0, 3, 6, 4, 1], [0, 4, 7, 5, 2, 6, 1, 3], [2, 5, 3, 1, 7, 4, 6, 0], [6, 1, 5, 2, 0, 3, 7, 4], [2, 4, 6, 0, 3, 1, 7, 5], [4, 0, 7, 3, 1, 6, 2, 5], [4, 2, 0, 5, 7, 1, 3, 6], [1, 4, 6, 0, 2, 7, 5, 3], [3, 6, 0, 7, 4, 1, 5, 2], [2, 4, 1, 7, 0, 6, 3, 5], [5, 7, 1, 3, 0, 6, 4, 2], [4, 1, 5, 0, 6, 3, 7, 2], [3, 7, 0, 2, 5, 1, 6, 4], [1, 6, 4, 7, 0, 3, 5, 2], [6, 3, 1, 7, 5, 0, 2, 4], [2, 5, 3, 0, 7, 4, 6, 1], [2, 5, 7, 0, 4, 6, 1, 3], [2, 7, 3, 6, 0, 5, 1, 4], [2, 6, 1, 7, 5, 3, 0, 4], [5, 1, 6, 0, 2, 4, 7, 3], [6, 2, 0, 5, 7, 4, 1, 3], [4, 2, 0, 6, 1, 7, 5, 3], [2, 4, 1, 7, 5, 3, 6, 0], [6, 1, 3, 0, 7, 4, 2, 5], [7, 3, 0, 2, 5, 1, 6, 4], [3, 1, 6, 4, 0, 7, 5, 2], [4, 2, 7, 3, 6, 0, 5, 1], [5, 3, 1, 7, 4, 6, 0, 2], [4, 6, 0, 3, 1, 7, 5, 2], [4, 6, 3, 0, 2, 7, 5, 1], [4, 1, 3, 6, 2, 7, 5, 0], [3, 5, 7, 2, 0, 6, 4, 1], [3, 1, 4, 7, 5, 0, 2, 6], [4, 0, 3, 5, 7, 1, 6, 2], [5, 3, 6, 0, 7, 1, 4, 2], [5, 1, 6, 0, 3, 7, 4, 2], [4, 6, 1, 3, 7, 0, 2, 5], [1, 4, 6, 3, 0, 7, 5, 2], [4, 6, 0, 2, 7, 5, 3, 1], [1, 5, 7, 2, 0, 3, 6, 4], [4, 7, 3, 0, 6, 1, 5, 2], [3, 1, 7, 5, 0, 2, 4, 6], [3, 7, 0, 4, 6, 1, 5, 2], [3, 1, 6, 2, 5, 7, 4, 0], [0, 6, 3, 5, 7, 1, 4, 2], [5, 3, 0, 4, 7, 1, 6, 2], [5, 2, 4, 7, 0, 3, 1, 6], [4, 1, 3, 5, 7, 2, 0, 6], [3, 6, 4, 1, 5, 0, 2, 7], [2, 5, 1, 6, 4, 0, 7, 3], [2, 6, 1, 7, 4, 0, 3, 5], [7, 1, 4, 2, 0, 6, 3, 5], [4, 0, 7, 5, 2, 6, 1, 3], [6, 4, 2, 0, 5, 7, 1, 3], [4, 6, 1, 5, 2, 0, 7, 3], [3, 1, 7, 4, 6, 0, 2, 5], [3, 1, 6, 2, 5, 7, 0, 4], [2, 5, 7, 1, 3, 0, 6, 4], [3, 0, 4, 7, 1, 6, 2, 5], [0, 6, 4, 7, 1, 3, 5, 2], [5, 2, 4, 6, 0, 3, 1, 7], [2, 4, 7, 3, 0, 6, 1, 5], [5, 2, 6, 3, 0, 7, 1, 4], [5, 2, 6, 1, 3, 7, 0, 4], [6, 2, 7, 1, 4, 0, 5, 3], [2, 5, 1, 6, 0, 3, 7, 4], [4, 7, 3, 0, 2, 5, 1, 6], [5, 2, 0, 6, 4, 7, 1, 3], [4, 1, 7, 0, 3, 6, 2, 5], [4, 6, 1, 5, 2, 0, 3, 7], [3, 0, 4, 7, 5, 2, 6, 1], [5, 2, 0, 7, 3, 1, 6, 4], [2, 0, 6, 4, 7, 1, 3, 5], [1, 7, 5, 0, 2, 4, 6, 3], [3, 5, 0, 4, 1, 7, 2, 6], [6, 0, 2, 7, 5, 3, 1, 4], [7, 1, 3, 0, 6, 4, 2, 5], [7, 2, 0, 5, 1, 4, 6, 3], [5, 0, 4, 1, 7, 2, 6, 3], [1, 6, 2, 5, 7, 4, 0, 3], [5, 2, 6, 1, 7, 4, 0, 3], [1, 5, 0, 6, 3, 7, 2, 4], [5, 2, 0, 7, 4, 1, 3, 6], [3, 7, 4, 2, 0, 6, 1, 5], [5, 3, 6, 0, 2, 4, 1, 7], [2, 5, 1, 4, 7, 0, 6, 3], [3, 6, 2, 7, 1, 4, 0, 5], [6, 3, 1, 4, 7, 0, 2, 5], [3, 6, 4, 2, 0, 5, 7, 1], [0, 5, 7, 2, 6, 3, 1, 4]]
+
