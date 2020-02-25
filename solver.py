@@ -3,6 +3,7 @@ import random
 # Number of queens as well as board dimensions(NxN)
 N = 8
 POPULATION_SIZE = 50
+solutions = []
 
 class Individual(object):
     '''
@@ -89,8 +90,19 @@ def createChromosome():
 
 
 def main():
-    global POPULATION_SIZE
+    # until we find 92 unique solutions keep evolving
+    while len(solutions) < 92:
+        new_solution = evolution()
+        if new_solution:
+            print("-----Found new solution. Total found: " + str(len(solutions)))
+        else:
+            print("-----Found already existing solution.")
 
+    print(solutions)
+
+def evolution():
+    global POPULATION_SIZE
+    global solutions
     gen = 1
     found_solution = False
     population = []
@@ -128,15 +140,21 @@ def main():
 
         population = next_gen
 
-        print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
-              "".join(str(gene) for gene in population[0].chromosome),
-              population[0].fitness))
+        # print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
+        #       "".join(str(gene) for gene in population[0].chromosome),
+        #       population[0].fitness))
 
         gen += 1
 
-    print("SOLUTION Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
+    print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
           "".join(str(gene) for gene in population[0].chromosome),
           population[0].fitness))
+    # check if the solution is unique
+    if population[0].chromosome not in solutions:
+        solutions.append(population[0].chromosome)
+        return True
+    else:
+        return False
 
 
 

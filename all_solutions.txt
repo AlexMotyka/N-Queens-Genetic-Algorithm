@@ -1,0 +1,1187 @@
+/*
+This is the terminal output after running solver.py to find all 92 solutions to the N queens problem with N=8
+*/
+
+
+Generation: 3584	Chromosome: 25713064	Fitness: 0
+-----Found new solution. Total found: 1
+Generation: 317	Chromosome: 64205713	Fitness: 0
+-----Found new solution. Total found: 2
+Generation: 415	Chromosome: 35720641	Fitness: 0
+-----Found new solution. Total found: 3
+Generation: 971	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 198	Chromosome: 53602417	Fitness: 0
+-----Found new solution. Total found: 4
+Generation: 281	Chromosome: 24170635	Fitness: 0
+-----Found new solution. Total found: 5
+Generation: 455	Chromosome: 60275314	Fitness: 0
+-----Found new solution. Total found: 6
+Generation: 109	Chromosome: 14602753	Fitness: 0
+-----Found new solution. Total found: 7
+Generation: 1041	Chromosome: 51602473	Fitness: 0
+-----Found new solution. Total found: 8
+Generation: 80	Chromosome: 52064713	Fitness: 0
+-----Found new solution. Total found: 9
+Generation: 101	Chromosome: 37420615	Fitness: 0
+-----Found new solution. Total found: 10
+Generation: 104	Chromosome: 25307461	Fitness: 0
+-----Found new solution. Total found: 11
+Generation: 248	Chromosome: 53607142	Fitness: 0
+-----Found new solution. Total found: 12
+Generation: 198	Chromosome: 06471352	Fitness: 0
+-----Found new solution. Total found: 13
+Generation: 4330	Chromosome: 27360514	Fitness: 0
+-----Found new solution. Total found: 14
+Generation: 154	Chromosome: 52613704	Fitness: 0
+-----Found new solution. Total found: 15
+Generation: 9261	Chromosome: 63147025	Fitness: 0
+-----Found new solution. Total found: 16
+Generation: 1191	Chromosome: 24730615	Fitness: 0
+-----Found new solution. Total found: 17
+Generation: 28	Chromosome: 35041726	Fitness: 0
+-----Found new solution. Total found: 18
+Generation: 60	Chromosome: 63175024	Fitness: 0
+-----Found new solution. Total found: 19
+Generation: 49	Chromosome: 31746025	Fitness: 0
+-----Found new solution. Total found: 20
+Generation: 123	Chromosome: 41357206	Fitness: 0
+-----Found new solution. Total found: 21
+Generation: 232	Chromosome: 36271405	Fitness: 0
+-----Found new solution. Total found: 22
+Generation: 301	Chromosome: 25703641	Fitness: 0
+-----Found new solution. Total found: 23
+Generation: 1080	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 715	Chromosome: 31475026	Fitness: 0
+-----Found new solution. Total found: 24
+Generation: 2170	Chromosome: 35041726	Fitness: 0
+-----Found already existing solution.
+Generation: 165	Chromosome: 05726314	Fitness: 0
+-----Found new solution. Total found: 25
+Generation: 262	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 86	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 98	Chromosome: 25160374	Fitness: 0
+-----Found new solution. Total found: 26
+Generation: 247	Chromosome: 52074136	Fitness: 0
+-----Found new solution. Total found: 27
+Generation: 93	Chromosome: 42057136	Fitness: 0
+-----Found new solution. Total found: 28
+Generation: 1192	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 13126	Chromosome: 04752613	Fitness: 0
+-----Found new solution. Total found: 29
+Generation: 1350	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 2116	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 174	Chromosome: 71306425	Fitness: 0
+-----Found new solution. Total found: 30
+Generation: 287	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 1134	Chromosome: 51603742	Fitness: 0
+-----Found new solution. Total found: 31
+Generation: 2292	Chromosome: 20647135	Fitness: 0
+-----Found new solution. Total found: 32
+Generation: 25	Chromosome: 15720364	Fitness: 0
+-----Found new solution. Total found: 33
+Generation: 575	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 134	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 2231	Chromosome: 73025164	Fitness: 0
+-----Found new solution. Total found: 34
+Generation: 11976	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 67	Chromosome: 41362750	Fitness: 0
+-----Found new solution. Total found: 35
+Generation: 102	Chromosome: 52073164	Fitness: 0
+-----Found new solution. Total found: 36
+Generation: 525	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 946	Chromosome: 40357162	Fitness: 0
+-----Found new solution. Total found: 37
+Generation: 508	Chromosome: 25147063	Fitness: 0
+-----Found new solution. Total found: 38
+Generation: 55	Chromosome: 36420571	Fitness: 0
+-----Found new solution. Total found: 39
+Generation: 158	Chromosome: 16470352	Fitness: 0
+-----Found new solution. Total found: 40
+Generation: 503	Chromosome: 46027531	Fitness: 0
+-----Found new solution. Total found: 41
+Generation: 106	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 2027	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 65	Chromosome: 42736051	Fitness: 0
+-----Found new solution. Total found: 42
+Generation: 198	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 300	Chromosome: 37025164	Fitness: 0
+-----Found new solution. Total found: 43
+Generation: 113	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 980	Chromosome: 40731625	Fitness: 0
+-----Found new solution. Total found: 44
+Generation: 371	Chromosome: 53047162	Fitness: 0
+-----Found new solution. Total found: 45
+Generation: 13378	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 3301	Chromosome: 16257403	Fitness: 0
+-----Found new solution. Total found: 46
+Generation: 424	Chromosome: 36074152	Fitness: 0
+-----Found new solution. Total found: 47
+Generation: 1269	Chromosome: 72051463	Fitness: 0
+-----Found new solution. Total found: 48
+Generation: 272	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 165	Chromosome: 52470316	Fitness: 0
+-----Found new solution. Total found: 49
+Generation: 2094	Chromosome: 31640752	Fitness: 0
+-----Found new solution. Total found: 50
+Generation: 334	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 245	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 1319	Chromosome: 31750246	Fitness: 0
+-----Found new solution. Total found: 51
+Generation: 932	Chromosome: 41703625	Fitness: 0
+-----Found new solution. Total found: 52
+Generation: 289	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 73	Chromosome: 52617403	Fitness: 0
+-----Found new solution. Total found: 53
+Generation: 162	Chromosome: 36074152	Fitness: 0
+-----Found already existing solution.
+Generation: 564	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 596	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 765	Chromosome: 62714053	Fitness: 0
+-----Found new solution. Total found: 54
+Generation: 85	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 560	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 6198	Chromosome: 25164073	Fitness: 0
+-----Found new solution. Total found: 55
+Generation: 133	Chromosome: 06357142	Fitness: 0
+-----Found new solution. Total found: 56
+Generation: 1370	Chromosome: 36074152	Fitness: 0
+-----Found already existing solution.
+Generation: 1229	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 256	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 214	Chromosome: 37046152	Fitness: 0
+-----Found new solution. Total found: 57
+Generation: 7155	Chromosome: 35716024	Fitness: 0
+-----Found new solution. Total found: 58
+Generation: 83	Chromosome: 52460317	Fitness: 0
+-----Found new solution. Total found: 59
+Generation: 1863	Chromosome: 15063724	Fitness: 0
+-----Found new solution. Total found: 60
+Generation: 2072	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 3194	Chromosome: 13572064	Fitness: 0
+-----Found new solution. Total found: 61
+Generation: 527	Chromosome: 63175024	Fitness: 0
+-----Found already existing solution.
+Generation: 331	Chromosome: 06471352	Fitness: 0
+-----Found already existing solution.
+Generation: 544	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 1101	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 164	Chromosome: 26175304	Fitness: 0
+-----Found new solution. Total found: 62
+Generation: 1916	Chromosome: 30475261	Fitness: 0
+-----Found new solution. Total found: 63
+Generation: 132	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 27	Chromosome: 47306152	Fitness: 0
+-----Found new solution. Total found: 64
+Generation: 2517	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 79	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 273	Chromosome: 41506372	Fitness: 0
+-----Found new solution. Total found: 65
+Generation: 3719	Chromosome: 52460317	Fitness: 0
+-----Found already existing solution.
+Generation: 56	Chromosome: 17502463	Fitness: 0
+-----Found new solution. Total found: 66
+Generation: 681	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 1107	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 119	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 2191	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 121	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 581	Chromosome: 46152073	Fitness: 0
+-----Found new solution. Total found: 67
+Generation: 275	Chromosome: 52460317	Fitness: 0
+-----Found already existing solution.
+Generation: 296	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 124	Chromosome: 31625704	Fitness: 0
+-----Found new solution. Total found: 68
+Generation: 150	Chromosome: 51603742	Fitness: 0
+-----Found already existing solution.
+Generation: 168	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 1919	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 258	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 61	Chromosome: 30471625	Fitness: 0
+-----Found new solution. Total found: 69
+Generation: 498	Chromosome: 24175360	Fitness: 0
+-----Found new solution. Total found: 70
+Generation: 120	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 124	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 1595	Chromosome: 46031752	Fitness: 0
+-----Found new solution. Total found: 71
+Generation: 136	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 737	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 123	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 2269	Chromosome: 47302516	Fitness: 0
+-----Found new solution. Total found: 72
+Generation: 577	Chromosome: 46302751	Fitness: 0
+-----Found new solution. Total found: 73
+Generation: 99	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 236	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 57	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 74	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 271	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 793	Chromosome: 52064713	Fitness: 0
+-----Found already existing solution.
+Generation: 170	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 1433	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 740	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 1064	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 184	Chromosome: 40752613	Fitness: 0
+-----Found new solution. Total found: 74
+Generation: 3079	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 42	Chromosome: 31625740	Fitness: 0
+-----Found new solution. Total found: 75
+Generation: 89	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 1827	Chromosome: 63175024	Fitness: 0
+-----Found already existing solution.
+Generation: 61	Chromosome: 06357142	Fitness: 0
+-----Found already existing solution.
+Generation: 242	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 88	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 906	Chromosome: 15063724	Fitness: 0
+-----Found already existing solution.
+Generation: 235	Chromosome: 40357162	Fitness: 0
+-----Found already existing solution.
+Generation: 1841	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 385	Chromosome: 47302516	Fitness: 0
+-----Found already existing solution.
+Generation: 77	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 650	Chromosome: 73025164	Fitness: 0
+-----Found already existing solution.
+Generation: 2009	Chromosome: 42061753	Fitness: 0
+-----Found new solution. Total found: 76
+Generation: 228	Chromosome: 41703625	Fitness: 0
+-----Found already existing solution.
+Generation: 566	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 1190	Chromosome: 25317460	Fitness: 0
+-----Found new solution. Total found: 77
+Generation: 39	Chromosome: 61520374	Fitness: 0
+-----Found new solution. Total found: 78
+Generation: 573	Chromosome: 25147063	Fitness: 0
+-----Found already existing solution.
+Generation: 12644	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 180	Chromosome: 62057413	Fitness: 0
+-----Found new solution. Total found: 79
+Generation: 341	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 1084	Chromosome: 62057413	Fitness: 0
+-----Found already existing solution.
+Generation: 1575	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 875	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 150	Chromosome: 61307425	Fitness: 0
+-----Found new solution. Total found: 80
+Generation: 13818	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 2070	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 45	Chromosome: 14630752	Fitness: 0
+-----Found new solution. Total found: 81
+Generation: 220	Chromosome: 50417263	Fitness: 0
+-----Found new solution. Total found: 82
+Generation: 3953	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 1118	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 726	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 5946	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 247	Chromosome: 62714053	Fitness: 0
+-----Found already existing solution.
+Generation: 1063	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 176	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 290	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 150	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 781	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 66	Chromosome: 26174035	Fitness: 0
+-----Found new solution. Total found: 83
+Generation: 1473	Chromosome: 47302516	Fitness: 0
+-----Found already existing solution.
+Generation: 1293	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 268	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 31	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 85	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 401	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 224	Chromosome: 46302751	Fitness: 0
+-----Found already existing solution.
+Generation: 656	Chromosome: 57130642	Fitness: 0
+-----Found new solution. Total found: 84
+Generation: 147	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 8696	Chromosome: 31750246	Fitness: 0
+-----Found already existing solution.
+Generation: 486	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 6931	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 134	Chromosome: 41506372	Fitness: 0
+-----Found already existing solution.
+Generation: 1655	Chromosome: 41703625	Fitness: 0
+-----Found already existing solution.
+Generation: 71	Chromosome: 36420571	Fitness: 0
+-----Found already existing solution.
+Generation: 5384	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 210	Chromosome: 25704613	Fitness: 0
+-----Found new solution. Total found: 85
+Generation: 1224	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 61	Chromosome: 36420571	Fitness: 0
+-----Found already existing solution.
+Generation: 98	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 917	Chromosome: 36271405	Fitness: 0
+-----Found already existing solution.
+Generation: 137	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 180	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 73	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 90	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 523	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 1078	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 80	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 601	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 5982	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 526	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 75	Chromosome: 15063724	Fitness: 0
+-----Found already existing solution.
+Generation: 226	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 122	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 656	Chromosome: 61520374	Fitness: 0
+-----Found already existing solution.
+Generation: 353	Chromosome: 17502463	Fitness: 0
+-----Found already existing solution.
+Generation: 323	Chromosome: 15720364	Fitness: 0
+-----Found already existing solution.
+Generation: 279	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 1638	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 671	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 768	Chromosome: 36271405	Fitness: 0
+-----Found already existing solution.
+Generation: 2897	Chromosome: 73025164	Fitness: 0
+-----Found already existing solution.
+Generation: 1853	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 88	Chromosome: 31625740	Fitness: 0
+-----Found already existing solution.
+Generation: 67	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 325	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 346	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 208	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 2622	Chromosome: 73025164	Fitness: 0
+-----Found already existing solution.
+Generation: 881	Chromosome: 72051463	Fitness: 0
+-----Found already existing solution.
+Generation: 10377	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 646	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 92	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 2925	Chromosome: 20647135	Fitness: 0
+-----Found already existing solution.
+Generation: 400	Chromosome: 62057413	Fitness: 0
+-----Found already existing solution.
+Generation: 1774	Chromosome: 31750246	Fitness: 0
+-----Found already existing solution.
+Generation: 733	Chromosome: 35041726	Fitness: 0
+-----Found already existing solution.
+Generation: 125	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 330	Chromosome: 52064713	Fitness: 0
+-----Found already existing solution.
+Generation: 21	Chromosome: 41703625	Fitness: 0
+-----Found already existing solution.
+Generation: 1209	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 66	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 1027	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 627	Chromosome: 25317460	Fitness: 0
+-----Found already existing solution.
+Generation: 2343	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 168	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 214	Chromosome: 53174602	Fitness: 0
+-----Found new solution. Total found: 86
+Generation: 102	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 505	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 5	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 43	Chromosome: 36074152	Fitness: 0
+-----Found already existing solution.
+Generation: 4406	Chromosome: 13572064	Fitness: 0
+-----Found already existing solution.
+Generation: 1219	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 388	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 12254	Chromosome: 52460317	Fitness: 0
+-----Found already existing solution.
+Generation: 119	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 39	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 36	Chromosome: 46302751	Fitness: 0
+-----Found already existing solution.
+Generation: 81	Chromosome: 36415027	Fitness: 0
+-----Found new solution. Total found: 87
+Generation: 1474	Chromosome: 13572064	Fitness: 0
+-----Found already existing solution.
+Generation: 1952	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 238	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 4476	Chromosome: 40731625	Fitness: 0
+-----Found already existing solution.
+Generation: 139	Chromosome: 62714053	Fitness: 0
+-----Found already existing solution.
+Generation: 2747	Chromosome: 36271405	Fitness: 0
+-----Found already existing solution.
+Generation: 1946	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 89	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 1618	Chromosome: 20647135	Fitness: 0
+-----Found already existing solution.
+Generation: 59	Chromosome: 53174602	Fitness: 0
+-----Found already existing solution.
+Generation: 184	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 298	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 527	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 556	Chromosome: 62057413	Fitness: 0
+-----Found already existing solution.
+Generation: 7873	Chromosome: 13572064	Fitness: 0
+-----Found already existing solution.
+Generation: 819	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 1369	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 783	Chromosome: 16470352	Fitness: 0
+-----Found already existing solution.
+Generation: 165	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 68	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 17	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 2276	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 194	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 165	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 1138	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 2449	Chromosome: 53174602	Fitness: 0
+-----Found already existing solution.
+Generation: 8217	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 380	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 41	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 2367	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 2670	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 55	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 44	Chromosome: 51602473	Fitness: 0
+-----Found already existing solution.
+Generation: 2093	Chromosome: 71420635	Fitness: 0
+-----Found new solution. Total found: 88
+Generation: 339	Chromosome: 72051463	Fitness: 0
+-----Found already existing solution.
+Generation: 322	Chromosome: 46137025	Fitness: 0
+-----Found new solution. Total found: 89
+Generation: 308	Chromosome: 72051463	Fitness: 0
+-----Found already existing solution.
+Generation: 323	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 10270	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 775	Chromosome: 51603742	Fitness: 0
+-----Found already existing solution.
+Generation: 1124	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 61	Chromosome: 61307425	Fitness: 0
+-----Found already existing solution.
+Generation: 122	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 58	Chromosome: 47302516	Fitness: 0
+-----Found already existing solution.
+Generation: 13396	Chromosome: 24175360	Fitness: 0
+-----Found already existing solution.
+Generation: 1499	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 9176	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 82	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 29	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 1183	Chromosome: 46137025	Fitness: 0
+-----Found already existing solution.
+Generation: 34	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 275	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 35	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 43	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 110	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 1023	Chromosome: 61307425	Fitness: 0
+-----Found already existing solution.
+Generation: 1369	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 2281	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 106	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 276	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 1094	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 55	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 403	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 189	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 537	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 2	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 152	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 143	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 1379	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 1387	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 22	Chromosome: 63175024	Fitness: 0
+-----Found already existing solution.
+Generation: 2518	Chromosome: 13572064	Fitness: 0
+-----Found already existing solution.
+Generation: 8996	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 211	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 3170	Chromosome: 51603742	Fitness: 0
+-----Found already existing solution.
+Generation: 273	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 102	Chromosome: 40752613	Fitness: 0
+-----Found already existing solution.
+Generation: 2596	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 2046	Chromosome: 20647135	Fitness: 0
+-----Found already existing solution.
+Generation: 50	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 703	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 1063	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 145	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 446	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 116	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 1484	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 3000	Chromosome: 60275314	Fitness: 0
+-----Found already existing solution.
+Generation: 57	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 2727	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 112	Chromosome: 15720364	Fitness: 0
+-----Found already existing solution.
+Generation: 1646	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 1438	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 1971	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 711	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 39	Chromosome: 36415027	Fitness: 0
+-----Found already existing solution.
+Generation: 79	Chromosome: 31746025	Fitness: 0
+-----Found already existing solution.
+Generation: 652	Chromosome: 60275314	Fitness: 0
+-----Found already existing solution.
+Generation: 858	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 452	Chromosome: 40357162	Fitness: 0
+-----Found already existing solution.
+Generation: 384	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 2897	Chromosome: 53174602	Fitness: 0
+-----Found already existing solution.
+Generation: 352	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 392	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 85	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 1081	Chromosome: 25147063	Fitness: 0
+-----Found already existing solution.
+Generation: 221	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 86	Chromosome: 06471352	Fitness: 0
+-----Found already existing solution.
+Generation: 43	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 3181	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 85	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 93	Chromosome: 31750246	Fitness: 0
+-----Found already existing solution.
+Generation: 2975	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 943	Chromosome: 25704613	Fitness: 0
+-----Found already existing solution.
+Generation: 420	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 52	Chromosome: 46027531	Fitness: 0
+-----Found already existing solution.
+Generation: 11189	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 197	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 2727	Chromosome: 31750246	Fitness: 0
+-----Found already existing solution.
+Generation: 7	Chromosome: 61520374	Fitness: 0
+-----Found already existing solution.
+Generation: 414	Chromosome: 17502463	Fitness: 0
+-----Found already existing solution.
+Generation: 504	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 344	Chromosome: 41362750	Fitness: 0
+-----Found already existing solution.
+Generation: 141	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 270	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 62	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 55	Chromosome: 51603742	Fitness: 0
+-----Found already existing solution.
+Generation: 48	Chromosome: 52460317	Fitness: 0
+-----Found already existing solution.
+Generation: 147	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 340	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 39	Chromosome: 30471625	Fitness: 0
+-----Found already existing solution.
+Generation: 2282	Chromosome: 52064713	Fitness: 0
+-----Found already existing solution.
+Generation: 1548	Chromosome: 36074152	Fitness: 0
+-----Found already existing solution.
+Generation: 59	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 391	Chromosome: 41506372	Fitness: 0
+-----Found already existing solution.
+Generation: 213	Chromosome: 60275314	Fitness: 0
+-----Found already existing solution.
+Generation: 467	Chromosome: 36271405	Fitness: 0
+-----Found already existing solution.
+Generation: 161	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 1462	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 222	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 3311	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 570	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 2180	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 250	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 2079	Chromosome: 71306425	Fitness: 0
+-----Found already existing solution.
+Generation: 680	Chromosome: 46027531	Fitness: 0
+-----Found already existing solution.
+Generation: 1435	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 2367	Chromosome: 25317460	Fitness: 0
+-----Found already existing solution.
+Generation: 3413	Chromosome: 63175024	Fitness: 0
+-----Found already existing solution.
+Generation: 3368	Chromosome: 35041726	Fitness: 0
+-----Found already existing solution.
+Generation: 312	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 2133	Chromosome: 71420635	Fitness: 0
+-----Found already existing solution.
+Generation: 116	Chromosome: 24730615	Fitness: 0
+-----Found already existing solution.
+Generation: 40	Chromosome: 61307425	Fitness: 0
+-----Found already existing solution.
+Generation: 659	Chromosome: 16470352	Fitness: 0
+-----Found already existing solution.
+Generation: 286	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 191	Chromosome: 31746025	Fitness: 0
+-----Found already existing solution.
+Generation: 776	Chromosome: 51603742	Fitness: 0
+-----Found already existing solution.
+Generation: 170	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 175	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 395	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 121	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 501	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 807	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 677	Chromosome: 25164073	Fitness: 0
+-----Found already existing solution.
+Generation: 436	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 122	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 9115	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 508	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 550	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 194	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 1296	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 16	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 383	Chromosome: 31750246	Fitness: 0
+-----Found already existing solution.
+Generation: 205	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 866	Chromosome: 30475261	Fitness: 0
+-----Found already existing solution.
+Generation: 1847	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 604	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 351	Chromosome: 24175360	Fitness: 0
+-----Found already existing solution.
+Generation: 233	Chromosome: 15063724	Fitness: 0
+-----Found already existing solution.
+Generation: 5320	Chromosome: 06471352	Fitness: 0
+-----Found already existing solution.
+Generation: 1134	Chromosome: 62714053	Fitness: 0
+-----Found already existing solution.
+Generation: 157	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 1144	Chromosome: 40357162	Fitness: 0
+-----Found already existing solution.
+Generation: 74	Chromosome: 36420571	Fitness: 0
+-----Found already existing solution.
+Generation: 74	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 64	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 376	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 710	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 791	Chromosome: 40752613	Fitness: 0
+-----Found already existing solution.
+Generation: 314	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 128	Chromosome: 46152037	Fitness: 0
+-----Found new solution. Total found: 90
+Generation: 331	Chromosome: 31746025	Fitness: 0
+-----Found already existing solution.
+Generation: 58	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 314	Chromosome: 13572064	Fitness: 0
+-----Found already existing solution.
+Generation: 57	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 101	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 299	Chromosome: 24175360	Fitness: 0
+-----Found already existing solution.
+Generation: 226	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 421	Chromosome: 16470352	Fitness: 0
+-----Found already existing solution.
+Generation: 509	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 58	Chromosome: 36420571	Fitness: 0
+-----Found already existing solution.
+Generation: 989	Chromosome: 04752613	Fitness: 0
+-----Found already existing solution.
+Generation: 162	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 206	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 92	Chromosome: 31746025	Fitness: 0
+-----Found already existing solution.
+Generation: 124	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 4610	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 85	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 4512	Chromosome: 52630714	Fitness: 0
+-----Found new solution. Total found: 91
+Generation: 76	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 298	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 717	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 803	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 305	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 5390	Chromosome: 36415027	Fitness: 0
+-----Found already existing solution.
+Generation: 737	Chromosome: 31625740	Fitness: 0
+-----Found already existing solution.
+Generation: 2610	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 148	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 321	Chromosome: 62057413	Fitness: 0
+-----Found already existing solution.
+Generation: 645	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 182	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 76	Chromosome: 71420635	Fitness: 0
+-----Found already existing solution.
+Generation: 610	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 6269	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 2722	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 266	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 100	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 65	Chromosome: 06357142	Fitness: 0
+-----Found already existing solution.
+Generation: 145	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 43	Chromosome: 72051463	Fitness: 0
+-----Found already existing solution.
+Generation: 2157	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 14141	Chromosome: 15063724	Fitness: 0
+-----Found already existing solution.
+Generation: 15879	Chromosome: 53174602	Fitness: 0
+-----Found already existing solution.
+Generation: 1584	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 101	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 748	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 150	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 34	Chromosome: 40752613	Fitness: 0
+-----Found already existing solution.
+Generation: 175	Chromosome: 41703625	Fitness: 0
+-----Found already existing solution.
+Generation: 232	Chromosome: 41357206	Fitness: 0
+-----Found already existing solution.
+Generation: 218	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 147	Chromosome: 37046152	Fitness: 0
+-----Found already existing solution.
+Generation: 334	Chromosome: 53607142	Fitness: 0
+-----Found already existing solution.
+Generation: 477	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 5236	Chromosome: 63147025	Fitness: 0
+-----Found already existing solution.
+Generation: 1003	Chromosome: 41362750	Fitness: 0
+-----Found already existing solution.
+Generation: 33	Chromosome: 16257403	Fitness: 0
+-----Found already existing solution.
+Generation: 184	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 65	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 87	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 112	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 106	Chromosome: 25703641	Fitness: 0
+-----Found already existing solution.
+Generation: 182	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 114	Chromosome: 51602473	Fitness: 0
+-----Found already existing solution.
+Generation: 772	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 26	Chromosome: 31625740	Fitness: 0
+-----Found already existing solution.
+Generation: 761	Chromosome: 52613704	Fitness: 0
+-----Found already existing solution.
+Generation: 115	Chromosome: 62714053	Fitness: 0
+-----Found already existing solution.
+Generation: 127	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 57	Chromosome: 47302516	Fitness: 0
+-----Found already existing solution.
+Generation: 148	Chromosome: 46152073	Fitness: 0
+-----Found already existing solution.
+Generation: 7904	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 1819	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 6104	Chromosome: 26175304	Fitness: 0
+-----Found already existing solution.
+Generation: 197	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 122	Chromosome: 53047162	Fitness: 0
+-----Found already existing solution.
+Generation: 2721	Chromosome: 25713064	Fitness: 0
+-----Found already existing solution.
+Generation: 1154	Chromosome: 63175024	Fitness: 0
+-----Found already existing solution.
+Generation: 712	Chromosome: 42057136	Fitness: 0
+-----Found already existing solution.
+Generation: 133	Chromosome: 52617403	Fitness: 0
+-----Found already existing solution.
+Generation: 80	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 546	Chromosome: 41703625	Fitness: 0
+-----Found already existing solution.
+Generation: 47	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 19	Chromosome: 46137025	Fitness: 0
+-----Found already existing solution.
+Generation: 98	Chromosome: 24170635	Fitness: 0
+-----Found already existing solution.
+Generation: 480	Chromosome: 46031752	Fitness: 0
+-----Found already existing solution.
+Generation: 13096	Chromosome: 41506372	Fitness: 0
+-----Found already existing solution.
+Generation: 1544	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 107	Chromosome: 62714053	Fitness: 0
+-----Found already existing solution.
+Generation: 177	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 146	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 736	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 230	Chromosome: 06357142	Fitness: 0
+-----Found already existing solution.
+Generation: 28	Chromosome: 52073164	Fitness: 0
+-----Found already existing solution.
+Generation: 66	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 12926	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 10532	Chromosome: 06471352	Fitness: 0
+-----Found already existing solution.
+Generation: 2286	Chromosome: 42061753	Fitness: 0
+-----Found already existing solution.
+Generation: 1939	Chromosome: 40731625	Fitness: 0
+-----Found already existing solution.
+Generation: 173	Chromosome: 14630752	Fitness: 0
+-----Found already existing solution.
+Generation: 1211	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 313	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 278	Chromosome: 25160374	Fitness: 0
+-----Found already existing solution.
+Generation: 312	Chromosome: 31640752	Fitness: 0
+-----Found already existing solution.
+Generation: 161	Chromosome: 57130642	Fitness: 0
+-----Found already existing solution.
+Generation: 1748	Chromosome: 36074152	Fitness: 0
+-----Found already existing solution.
+Generation: 442	Chromosome: 05726314	Fitness: 0
+-----Found already existing solution.
+Generation: 45	Chromosome: 31475026	Fitness: 0
+-----Found already existing solution.
+Generation: 1378	Chromosome: 36271405	Fitness: 0
+-----Found already existing solution.
+Generation: 329	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 579	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 343	Chromosome: 36420571	Fitness: 0
+-----Found already existing solution.
+Generation: 5247	Chromosome: 52630714	Fitness: 0
+-----Found already existing solution.
+Generation: 123	Chromosome: 35720641	Fitness: 0
+-----Found already existing solution.
+Generation: 132	Chromosome: 40752613	Fitness: 0
+-----Found already existing solution.
+Generation: 96	Chromosome: 46137025	Fitness: 0
+-----Found already existing solution.
+Generation: 37	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 48	Chromosome: 50417263	Fitness: 0
+-----Found already existing solution.
+Generation: 256	Chromosome: 37420615	Fitness: 0
+-----Found already existing solution.
+Generation: 937	Chromosome: 47306152	Fitness: 0
+-----Found already existing solution.
+Generation: 178	Chromosome: 52064713	Fitness: 0
+-----Found already existing solution.
+Generation: 2925	Chromosome: 27360514	Fitness: 0
+-----Found already existing solution.
+Generation: 1044	Chromosome: 72051463	Fitness: 0
+-----Found already existing solution.
+Generation: 1620	Chromosome: 52074136	Fitness: 0
+-----Found already existing solution.
+Generation: 651	Chromosome: 53602417	Fitness: 0
+-----Found already existing solution.
+Generation: 247	Chromosome: 31625704	Fitness: 0
+-----Found already existing solution.
+Generation: 106	Chromosome: 35716024	Fitness: 0
+-----Found already existing solution.
+Generation: 39	Chromosome: 26174035	Fitness: 0
+-----Found already existing solution.
+Generation: 7716	Chromosome: 71306425	Fitness: 0
+-----Found already existing solution.
+Generation: 140	Chromosome: 40357162	Fitness: 0
+-----Found already existing solution.
+Generation: 6851	Chromosome: 31625740	Fitness: 0
+-----Found already existing solution.
+Generation: 44	Chromosome: 14602753	Fitness: 0
+-----Found already existing solution.
+Generation: 295	Chromosome: 64205713	Fitness: 0
+-----Found already existing solution.
+Generation: 38	Chromosome: 47302516	Fitness: 0
+-----Found already existing solution.
+Generation: 2232	Chromosome: 37025164	Fitness: 0
+-----Found already existing solution.
+Generation: 185	Chromosome: 25307461	Fitness: 0
+-----Found already existing solution.
+Generation: 159	Chromosome: 42736051	Fitness: 0
+-----Found already existing solution.
+Generation: 144	Chromosome: 30475261	Fitness: 0
+-----Found already existing solution.
+Generation: 112	Chromosome: 52470316	Fitness: 0
+-----Found already existing solution.
+Generation: 52	Chromosome: 25317460	Fitness: 0
+-----Found already existing solution.
+Generation: 1824	Chromosome: 24603175	Fitness: 0
+-----Found new solution. Total found: 92
+[[2, 5, 7, 1, 3, 0, 6, 4], [6, 4, 2, 0, 5, 7, 1, 3], [3, 5, 7, 2, 0, 6, 4, 1], [5, 3, 6, 0, 2, 4, 1, 7], [2, 4, 1, 7, 0, 6, 3, 5], [6, 0, 2, 7, 5, 3, 1, 4], [1, 4, 6, 0, 2, 7, 5, 3], [5, 1, 6, 0, 2, 4, 7, 3], [5, 2, 0, 6, 4, 7, 1, 3], [3, 7, 4, 2, 0, 6, 1, 5], [2, 5, 3, 0, 7, 4, 6, 1], [5, 3, 6, 0, 7, 1, 4, 2], [0, 6, 4, 7, 1, 3, 5, 2], [2, 7, 3, 6, 0, 5, 1, 4], [5, 2, 6, 1, 3, 7, 0, 4], [6, 3, 1, 4, 7, 0, 2, 5], [2, 4, 7, 3, 0, 6, 1, 5], [3, 5, 0, 4, 1, 7, 2, 6], [6, 3, 1, 7, 5, 0, 2, 4], [3, 1, 7, 4, 6, 0, 2, 5], [4, 1, 3, 5, 7, 2, 0, 6], [3, 6, 2, 7, 1, 4, 0, 5], [2, 5, 7, 0, 3, 6, 4, 1], [3, 1, 4, 7, 5, 0, 2, 6], [0, 5, 7, 2, 6, 3, 1, 4], [2, 5, 1, 6, 0, 3, 7, 4], [5, 2, 0, 7, 4, 1, 3, 6], [4, 2, 0, 5, 7, 1, 3, 6], [0, 4, 7, 5, 2, 6, 1, 3], [7, 1, 3, 0, 6, 4, 2, 5], [5, 1, 6, 0, 3, 7, 4, 2], [2, 0, 6, 4, 7, 1, 3, 5], [1, 5, 7, 2, 0, 3, 6, 4], [7, 3, 0, 2, 5, 1, 6, 4], [4, 1, 3, 6, 2, 7, 5, 0], [5, 2, 0, 7, 3, 1, 6, 4], [4, 0, 3, 5, 7, 1, 6, 2], [2, 5, 1, 4, 7, 0, 6, 3], [3, 6, 4, 2, 0, 5, 7, 1], [1, 6, 4, 7, 0, 3, 5, 2], [4, 6, 0, 2, 7, 5, 3, 1], [4, 2, 7, 3, 6, 0, 5, 1], [3, 7, 0, 2, 5, 1, 6, 4], [4, 0, 7, 3, 1, 6, 2, 5], [5, 3, 0, 4, 7, 1, 6, 2], [1, 6, 2, 5, 7, 4, 0, 3], [3, 6, 0, 7, 4, 1, 5, 2], [7, 2, 0, 5, 1, 4, 6, 3], [5, 2, 4, 7, 0, 3, 1, 6], [3, 1, 6, 4, 0, 7, 5, 2], [3, 1, 7, 5, 0, 2, 4, 6], [4, 1, 7, 0, 3, 6, 2, 5], [5, 2, 6, 1, 7, 4, 0, 3], [6, 2, 7, 1, 4, 0, 5, 3], [2, 5, 1, 6, 4, 0, 7, 3], [0, 6, 3, 5, 7, 1, 4, 2], [3, 7, 0, 4, 6, 1, 5, 2], [3, 5, 7, 1, 6, 0, 2, 4], [5, 2, 4, 6, 0, 3, 1, 7], [1, 5, 0, 6, 3, 7, 2, 4], [1, 3, 5, 7, 2, 0, 6, 4], [2, 6, 1, 7, 5, 3, 0, 4], [3, 0, 4, 7, 5, 2, 6, 1], [4, 7, 3, 0, 6, 1, 5, 2], [4, 1, 5, 0, 6, 3, 7, 2], [1, 7, 5, 0, 2, 4, 6, 3], [4, 6, 1, 5, 2, 0, 7, 3], [3, 1, 6, 2, 5, 7, 0, 4], [3, 0, 4, 7, 1, 6, 2, 5], [2, 4, 1, 7, 5, 3, 6, 0], [4, 6, 0, 3, 1, 7, 5, 2], [4, 7, 3, 0, 2, 5, 1, 6], [4, 6, 3, 0, 2, 7, 5, 1], [4, 0, 7, 5, 2, 6, 1, 3], [3, 1, 6, 2, 5, 7, 4, 0], [4, 2, 0, 6, 1, 7, 5, 3], [2, 5, 3, 1, 7, 4, 6, 0], [6, 1, 5, 2, 0, 3, 7, 4], [6, 2, 0, 5, 7, 4, 1, 3], [6, 1, 3, 0, 7, 4, 2, 5], [1, 4, 6, 3, 0, 7, 5, 2], [5, 0, 4, 1, 7, 2, 6, 3], [2, 6, 1, 7, 4, 0, 3, 5], [5, 7, 1, 3, 0, 6, 4, 2], [2, 5, 7, 0, 4, 6, 1, 3], [5, 3, 1, 7, 4, 6, 0, 2], [3, 6, 4, 1, 5, 0, 2, 7], [7, 1, 4, 2, 0, 6, 3, 5], [4, 6, 1, 3, 7, 0, 2, 5], [4, 6, 1, 5, 2, 0, 3, 7], [5, 2, 6, 3, 0, 7, 1, 4], [2, 4, 6, 0, 3, 1, 7, 5]]
+
