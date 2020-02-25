@@ -17,13 +17,15 @@ To represent the position of the queens on the chess board I chose to use an arr
 
 ## The Chromosome
 
-In this algorithm a chromosome represents a configuration of queens on the board, whether or not they are conflict with eachother or not. The example array [0, 3, 3, 2] from above is a chromosome. Each value in the array is a 'gene' in the chromosome.
+In this algorithm a chromosome represents a configuration of queens on the board, whether or not they are in conflict with eachother. The array [0, 3, 3, 2] from above is a an example of a chromosome. Each value in the array is a 'gene' that makes up the chromosome.
 
 ## The Individual Class
 
 I created an "Individual" class which consists of a chromosome, a fitness score, and the methods necessary for calculating fitness, mating with another individual, and producing a mutated gene. 
 
-The fitness calculation moves through each queen in the chromosome and checks its position against any queens to the right(This avoids counting the same attack multiple times) to determine if a horizontal or diagonal attack is possible. The function does not check for a vertical collision because each index in the array can have only one queen, therefore a vertical attack is impossible. Everytime an attack can be made the fitness score of that chromosome is increased by 1. A correct solution will have a fitness score of 0 (no possible attacks).
+The fitness calculation moves through each queen in the chromosome and checks its position against any queens to the right) to determine if a horizontal or diagonal attack is possible. Only checking against queens to the right avoids counting the same attack multiple times. 
+
+The function does not check for a vertical collision because each index in the 1-dimensional array can have only one queen, therefore a vertical attack is impossible. Everytime an attack can be made the fitness score of that chromosome is increased by 1. A correct solution will have a fitness score of 0 (no possible attacks).
 
 ## The Algorithm
 
