@@ -1,9 +1,16 @@
 import random
+import matplotlib.pyplot as plt
 
 # Number of queens as well as board dimensions(NxN)
 N = 8
-POPULATION_SIZE = 50
+POPULATION_SIZE = 4000
 solutions = []
+
+# Used for graphs
+total_generations = 1
+total_solutions = 0
+# stores an array of objects of type {solutions: total_solutions, gens: total_generations}
+graph_data = [[],[]]
 
 class Individual(object):
     '''
@@ -90,19 +97,34 @@ def createChromosome():
 
 
 def main():
+    global total_solutions
+    global total_generations
+    global graph_data
+
     # until we find 92 unique solutions keep evolving
     while len(solutions) < 92:
         new_solution = evolution()
         if new_solution:
             print("-----Found new solution. Total found: " + str(len(solutions)))
+            total_solutions += 1
         else:
             print("-----Found already existing solution.")
 
-    print(solutions)
+        graph_data[0].append(total_generations)
+        graph_data[1].append(total_solutions)
+
+    print("Total generations taken: " + str(graph_data[0][-1]))
+    plt.plot(graph_data[0], graph_data[1], 'ro')
+    plt.xlabel('# Generations')
+    plt.ylabel('# Solutions')
+    plt.show()
+
 
 def evolution():
     global POPULATION_SIZE
     global solutions
+    global total_generations
+
     gen = 1
     found_solution = False
     population = []
@@ -145,6 +167,7 @@ def evolution():
         #       population[0].fitness))
 
         gen += 1
+        total_generations += 1
 
     print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
           "".join(str(gene) for gene in population[0].chromosome),
