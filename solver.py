@@ -1,5 +1,6 @@
 import random
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Number of queens as well as board dimensions(NxN)
 N = 8
@@ -9,6 +10,7 @@ solutions = []
 # Used for graphs
 total_generations = 1
 total_solutions = 0
+generation_frequencies = []
 # stores an array of objects of type {solutions: total_solutions, gens: total_generations}
 graph_data = [[],[]]
 
@@ -100,6 +102,8 @@ def main():
     global total_solutions
     global total_generations
     global graph_data
+    global generation_frequencies
+
 
     # until we find 92 unique solutions keep evolving
     while len(solutions) < 92:
@@ -113,10 +117,38 @@ def main():
         graph_data[0].append(total_generations)
         graph_data[1].append(total_solutions)
 
-    print("Total generations taken: " + str(graph_data[0][-1]))
+    # print("Total generations taken: " + str(graph_data[0][-1]))
+    # plt.plot(graph_data[0], graph_data[1], 'ro')
+    # plt.xlabel('# Generations')
+    # plt.ylabel('# Solutions')
+    # plt.show()
+    plt.figure(figsize=(8,5))
+
+    plt.subplot(1,2,1)
     plt.plot(graph_data[0], graph_data[1], 'ro')
-    plt.xlabel('# Generations')
-    plt.ylabel('# Solutions')
+    plt.tight_layout(pad=3.0)
+    plt.text(20, 92, r'Total Generations: ' + str(graph_data[0][-1]))
+    plt.grid(True)
+    plt.title('# of Generations to Find All Solutions')
+    plt.xlabel('# of Generations')
+    plt.ylabel('# of Solutions Found')
+
+    plt.subplot(1,2,2)
+    plt.tight_layout(pad=3.0)
+    # An "interface" to matplotlib.axes.Axes.hist() method
+    n, bins, patches = plt.hist(x=generation_frequencies, bins='auto', color='#0504aa',
+                                alpha=0.7, rwidth=1)
+    plt.grid(axis='y', alpha=0.75)
+    plt.grid(True)
+    plt.xlabel('# of Generations for Solution')
+    plt.ylabel('Frequency')
+    plt.title('Histogram of Generation Sizes')
+    # plt.text(23, 45, r'$\mu=15, b=3$')
+    maxfreq = n.max()
+    # Set a clean upper y-axis limit.
+    plt.ylim(ymax=np.ceil(maxfreq / 10) * 10 if maxfreq % 10 else maxfreq + 10)
+
+
     plt.show()
 
 
@@ -168,10 +200,9 @@ def evolution():
 
         gen += 1
         total_generations += 1
-
-    print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
-          "".join(str(gene) for gene in population[0].chromosome),
-          population[0].fitness))
+    generation_frequencies.append(gen)
+    print("Generation: {}\tChromosome: {}".format(gen,
+          "".join(str(gene) for gene in population[0].chromosome)))
     # check if the solution is unique
     if population[0].chromosome not in solutions:
         solutions.append(population[0].chromosome)
