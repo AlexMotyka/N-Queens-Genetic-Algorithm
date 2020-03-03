@@ -42,9 +42,9 @@ class Individual(object):
         for gene1, gene2 in zip(self.chromosome, parent2.chromosome):
             probability = random.random()
             # based on probability choose gene from parent1, parent2, or mutate
-            if probability < 0.4:
+            if probability <= 0.4:
                 child.append(gene1)
-            elif probability < 0.8:
+            elif probability <= 0.8:
                 child.append(gene2)
             else:
                 child.append(self.mutate())
@@ -109,19 +109,17 @@ def main():
     while len(solutions) < 92:
         new_solution = evolution()
         if new_solution:
-            print("-----Found new solution. Total found: " + str(len(solutions)))
+            print("Found new solution. Total found: " + str(len(solutions)))
             total_solutions += 1
         else:
-            print("-----Found already existing solution.")
+            print("Found already existing solution.")
 
         graph_data[0].append(total_generations)
         graph_data[1].append(total_solutions)
 
-    # print("Total generations taken: " + str(graph_data[0][-1]))
-    # plt.plot(graph_data[0], graph_data[1], 'ro')
-    # plt.xlabel('# Generations')
-    # plt.ylabel('# Solutions')
-    # plt.show()
+    for solution in solutions:
+        print(solution)
+
     plt.figure(figsize=(8,5))
 
     plt.subplot(1,2,1)
@@ -201,8 +199,8 @@ def evolution():
         gen += 1
         total_generations += 1
     generation_frequencies.append(gen)
-    print("Generation: {}\tChromosome: {}".format(gen,
-          "".join(str(gene) for gene in population[0].chromosome)))
+    # print("Generation: {}\tChromosome: {}".format(gen,
+    #       "".join(str(gene) for gene in population[0].chromosome)))
     # check if the solution is unique
     if population[0].chromosome not in solutions:
         solutions.append(population[0].chromosome)
