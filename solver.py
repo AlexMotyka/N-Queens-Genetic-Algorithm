@@ -5,14 +5,18 @@ import numpy as np
 # Number of queens as well as board dimensions(NxN)
 N = 8
 POPULATION_SIZE = 4000
+# Array to store all unique solutions found
 solutions = []
 
-# Used for graphs
+# Cumulative generations evolved
 total_generations = 1
+# Count of unique solutions found
 total_solutions = 0
+# Generation sizes for histogram
 generation_frequencies = []
-# stores an array of objects of type {solutions: total_solutions, gens: total_generations}
-graph_data = [[],[]]
+# Array at index 0 stores a list of total_generations after each evolution process
+# Array at index 1 stores a list of total_solutions after each evolution process
+cumulative_gen_data = [[],[]]
 
 class Individual(object):
     '''
@@ -58,8 +62,8 @@ class Individual(object):
             Optimal fitness score is 0, and fitness score increases by 1
             with each hit. This function only check for horizontal and diagonal
             hits because we will never have a vertical hit due to the way we
-            create chromosomes; a chromosome will at most have one queen per
-            column.
+            create chromosomes (a chromosome will at most have one queen per
+            column)
         '''
         global N
         # initial fitness is perfect 0
@@ -71,7 +75,7 @@ class Individual(object):
         for y1 in self.chromosome:
             # the column of the next queen
             x2 = x1 + 1
-            # loop through the remaing queens in the chromosome
+            # loop through the remaing queens in the chromosome to check for attacks
             while x2 < N:
                 # the row value at index x2
                 y2 = self.chromosome[x2]
@@ -101,11 +105,11 @@ def createChromosome():
 def main():
     global total_solutions
     global total_generations
-    global graph_data
+    global cumulative_gen_data
     global generation_frequencies
 
 
-    # until we find 92 unique solutions keep evolving
+    # until we find 92 unique solutions keep evolving to find new solutions
     while len(solutions) < 92:
         new_solution = evolution()
         if new_solution:
@@ -114,39 +118,39 @@ def main():
         else:
             print("Found already existing solution.")
 
-        graph_data[0].append(total_generations)
-        graph_data[1].append(total_solutions)
+        cumulative_gen_data[0].append(total_generations)
+        cumulative_gen_data[1].append(total_solutions)
 
     for solution in solutions:
         print(solution)
 
+    # create a figure with two subplots
     plt.figure(figsize=(8,5))
 
+    # cumulative generation graph
     plt.subplot(1,2,1)
-    plt.plot(graph_data[0], graph_data[1], 'ro')
+    plt.plot(cumulative_gen_data[0], cumulative_gen_data[1], 'ro')
     plt.tight_layout(pad=3.0)
-    plt.text(20, 92, r'Total Generations: ' + str(graph_data[0][-1]))
+    plt.text(20, 92, r'Total Generations: ' + str(cumulative_gen_data[0][-1]))
     plt.grid(True)
     plt.title('# of Generations to Find All Solutions')
     plt.xlabel('# of Generations')
     plt.ylabel('# of Solutions Found')
 
+    # generation frequency histogram
     plt.subplot(1,2,2)
     plt.tight_layout(pad=3.0)
-    # An "interface" to matplotlib.axes.Axes.hist() method
-    n, bins, patches = plt.hist(x=generation_frequencies, bins='auto', color='#0504aa',
-                                alpha=0.7, rwidth=1)
+    n, bins, patches = plt.hist(x=generation_frequencies, bins='auto', color='#0504aa', alpha=0.7, rwidth=1)
     plt.grid(axis='y', alpha=0.75)
     plt.grid(True)
     plt.xlabel('# of Generations for Solution')
     plt.ylabel('Frequency')
     plt.title('Histogram of Generation Sizes')
-    # plt.text(23, 45, r'$\mu=15, b=3$')
     maxfreq = n.max()
     # Set a clean upper y-axis limit.
     plt.ylim(ymax=np.ceil(maxfreq / 10) * 10 if maxfreq % 10 else maxfreq + 10)
 
-
+    # display the plots
     plt.show()
 
 
@@ -161,6 +165,7 @@ def evolution():
 
     # create the initial population
     for i in range(POPULATION_SIZE):
+        # random chromosome for each individual
         chromosome = createChromosome()
         population.append(Individual(chromosome))
 
@@ -178,6 +183,7 @@ def evolution():
         # select the "elite" 10% of members of the population to survive to the
         # next generation
         elites = int((10*POPULATION_SIZE)/100)
+        # copy them to the next_gen[]
         next_gen.extend(population[:elites])
 
         # we need to fill the remaining 90% of the next generation with children
@@ -190,6 +196,7 @@ def evolution():
             child = parent1.mate(parent2)
             next_gen.append(child)
 
+        # discard the old pop and replace it with the new gen
         population = next_gen
 
         # print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
@@ -198,9 +205,13 @@ def evolution():
 
         gen += 1
         total_generations += 1
+
     generation_frequencies.append(gen)
+
+    # # print the solution chromosome
     # print("Generation: {}\tChromosome: {}".format(gen,
     #       "".join(str(gene) for gene in population[0].chromosome)))
+
     # check if the solution is unique
     if population[0].chromosome not in solutions:
         solutions.append(population[0].chromosome)
