@@ -1,6 +1,6 @@
 # N-Queens Genetic Algorithm
 
-This is a genetic algorithm that finds a solution to the famous N-Queens problem, where N queens have to be placed on an NxN chessboard such that they can not attack eachother. 
+This is a genetic algorithm that finds a solution to the famous N-Queens problem, where N queens have to be placed on an NxN chessboard such that they can not attack eachother. Currently the algorithm continues the evolution process until all 92 possible solutions for N=8 have been discovered.
 
 ## Running the algorithm
 
