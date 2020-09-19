@@ -65,4 +65,10 @@ The function does not check for a vertical collision because each index in the 1
 - Take the top 50% of the population and let them mate to fill up the remaining 90% of the next generation population with children. When the children's chromosomes are created each gene has a a 45% chance to be parent 1's gene, a 45% chance to be parent 2's gene, and a 10% chance to be a randomly mutated gene.
 - Destroy the old population, the new generation now becomes the current population and the evolution cycle happens again.
 
+## Result
+
+The below figure shows the results of running the algorithm to find all 92 solutions for N=8. The graph on the left shows the total number of generations it took to find all unique solutions. The graph on the right shows the frequency of generation sizes. We can see that too find most solutions it takes around 3 generations of evolution.
+
+![Image of Cost vs. Iterations](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/Figure_1.png)
+
 
