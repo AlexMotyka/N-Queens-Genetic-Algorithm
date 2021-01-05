@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 # Number of queens as well as board dimensions(NxN)
-N = 8
+N = 40
 POPULATION_SIZE = 4000
 
 class Individual(object):
@@ -87,11 +87,6 @@ def createChromosome():
         chromosome.append(random.randint(0, N-1))
     return chromosome
 
-
-
-def main():
-    solution = evolution()
-
 # TODO: this is where we will receive user input from angular
 def evolution():
     global POPULATION_SIZE
@@ -138,16 +133,16 @@ def evolution():
         # discard the old pop and replace it with the new gen
         population = next_gen
 
-        print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
+        yield "Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
               "".join(str(gene) for gene in population[0].chromosome),
-              population[0].fitness))
+              population[0].fitness)
 
         gen += 1
 
     # TODO: When we have our solution svg emit it and then emit 200 to signal that no more data will be sent
     # print the solution chromosome
-    print("Generation: {}\tChromosome: {}".format(gen,
-          "".join(str(gene) for gene in population[0].chromosome)))
+    yield "Generation: {}\tChromosome: {}".format(gen,
+          "".join(str(gene) for gene in population[0].chromosome))
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
