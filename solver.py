@@ -1,5 +1,4 @@
 import random
-import matplotlib.pyplot as plt
 import numpy as np
 
 # Number of queens as well as board dimensions(NxN)
@@ -93,7 +92,7 @@ def createChromosome():
 def main():
     solution = evolution()
 
-
+# TODO: this is where we will receive user input from angular
 def evolution():
     global POPULATION_SIZE
 
@@ -107,6 +106,8 @@ def evolution():
         chromosome = createChromosome()
         population.append(Individual(chromosome))
 
+    # TODO: While we don't have a soltuion generate and emit the chessboard svg text
+    # TODO: Save svg in local file
     while not found_solution:
         # sort the population by ascending fitness
         population = sorted(population, key = lambda x:x.fitness)
@@ -143,7 +144,7 @@ def evolution():
 
         gen += 1
 
-
+    # TODO: When we have our solution svg emit it and then emit 200 to signal that no more data will be sent
     # print the solution chromosome
     print("Generation: {}\tChromosome: {}".format(gen,
           "".join(str(gene) for gene in population[0].chromosome)))
