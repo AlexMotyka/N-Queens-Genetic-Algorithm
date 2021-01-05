@@ -1,8 +1,10 @@
 import random
 import numpy as np
+import chess
+import chess.svg
 
 # Number of queens as well as board dimensions(NxN)
-N = 40
+N = 8
 POPULATION_SIZE = 4000
 
 class Individual(object):
@@ -87,9 +89,26 @@ def createChromosome():
         chromosome.append(random.randint(0, N-1))
     return chromosome
 
+def generateBoard(top_chromosome):
+    board_config = ""
+        
+    for queen_pos in top_chromosome:
+        if int(queen_pos) == (N-1):
+            board_config += queen_pos + "Q/"
+        elif int(queen_pos) == 0:
+            board_config += "Q" + str(N-1) + "/"
+        else:
+            board_config += queen_pos + "Q" + str((N-1)-int(queen_pos)) + "/"
+
+    board = chess.Board(board_config[:-1])
+    svg = chess.svg.board(board, size=350)
+
+    return svg
+
 # TODO: this is where we will receive user input from angular
 def evolution():
     global POPULATION_SIZE
+    global N
 
     gen = 1
     found_solution = False
@@ -133,16 +152,24 @@ def evolution():
         # discard the old pop and replace it with the new gen
         population = next_gen
 
-        yield "Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
-              "".join(str(gene) for gene in population[0].chromosome),
-              population[0].fitness)
+        # generate the a chessboard svg of the top chromosome
+        top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
+        svg = generateBoard(top_chromosome)
+
+        svg_file = open("chess" + str(gen) + ".svg", "w")
+        svg_file.write(svg)
+        svg_file.close()
+
+        yield svg
 
         gen += 1
 
     # TODO: When we have our solution svg emit it and then emit 200 to signal that no more data will be sent
     # print the solution chromosome
-    yield "Generation: {}\tChromosome: {}".format(gen,
-          "".join(str(gene) for gene in population[0].chromosome))
+    top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
+    svg = generateBoard(top_chromosome)
 
-# if __name__ == '__main__':
-#     main()
+    svg_file = open("chess" + str(gen) + ".svg", "w")
+    svg_file.write(svg)
+    svg_file.close()
+    yield svg
