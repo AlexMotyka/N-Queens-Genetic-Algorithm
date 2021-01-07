@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, stream_with_context, Response
+from flask import Flask, jsonify, stream_with_context, Response, request
 from flask_socketio import send, emit, SocketIO
 import solver
 
@@ -12,7 +12,9 @@ def hello():
 
 @app.route("/evolve")
 def evolve():
-    return Response(stream_with_context(solver.evolution()))
+	pop_size = int(request.args.get('pop_size'))
+	n = int(request.args.get('n'))
+	return Response(stream_with_context(solver.evolution(pop_size, n)))
 
 if __name__ == "__main__":
   socketio.run(app, host='0.0.0.0', port=8023)
