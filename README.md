@@ -4,7 +4,7 @@ This is a genetic algorithm that finds a solution to the famous N-Queens problem
 
 ## The Chessboard
 
-To represent the position of the queens on the chess board I chose to use an array. The index of the array specifies the column of the queen, and the value at that index represents the row the queen is on. Take for example the array [2,7,3,0,5,1,4,6]. This array represents an 8x8 chessboard with 8 queens on it (visualized using the bottom left board). The first queen is found on (column 0, row 2) and visualized on the chessboard by (columan a, row 3). The second queen is on (column 1, row 7) and visualized on the chessboard by (column b, row 8). This continues so on so forth for each queen. The board on the bottom right represents a solved board where no queen attakc are possible.
+To represent the position of the queens on the chess board I chose to use an array. The index of the array specifies the column of the queen, and the value at that index represents the row the queen is on. Take for example the array [2,7,3,0,5,1,4,6]. This array represents an 8x8 chessboard with 8 queens on it (visualized using the bottom left board). The first queen is found on (column 0, row 2) and visualized on the chessboard by (columan a, row 3). The second queen is on (column 1, row 7) and visualized on the chessboard by (column b, row 8). This continues so on so forth for each queen. The board on the bottom right represents a solved board where no queen attacks are possible.
 
 ![Image of unsolved board](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/evolution_svgs/chess1.svg)
 ![Image of solved board](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/evolution_svgs/chess6.svg)
