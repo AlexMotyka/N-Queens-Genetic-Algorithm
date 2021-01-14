@@ -2,6 +2,8 @@ import random
 import numpy as np
 import chess
 import chess.svg
+import os
+import glob
 
 # Number of queens as well as board dimensions(NxN)
 N = 8
@@ -106,7 +108,15 @@ def generateBoard(top_chromosome):
 
     return svg
 
+
+def clearFolder(path):
+    files = glob.glob(path)
+    for f in files:
+        os.remove(f)
+
+
 def main():
+    clearFolder('./evolution_svgs/*')
     solution = evolution()
 
 # TODO: this is where we will receive user input from angular
@@ -159,7 +169,7 @@ def evolution():
         top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
         svg = generateBoard(top_chromosome)
 
-        svg_file = open("chess" + str(gen) + ".svg", "w")
+        svg_file = open("./evolution_svgs/chess" + str(gen) + ".svg", "w")
         svg_file.write(svg)
         svg_file.close()
 
@@ -170,7 +180,7 @@ def evolution():
     top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
     svg = generateBoard(top_chromosome)
 
-    svg_file = open("chess" + str(gen) + ".svg", "w")
+    svg_file = open("./evolution_svgs/chess" + str(gen) + ".svg", "w")
     svg_file.write(svg)
     svg_file.close()
 
