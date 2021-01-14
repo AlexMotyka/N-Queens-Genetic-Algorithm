@@ -2,42 +2,16 @@
 
 This is a genetic algorithm that finds a solution to the famous N-Queens problem, where N queens have to be placed on an NxN chessboard such that they can not attack eachother. Currently the algorithm continues the evolution process until all 92 possible solutions for N=8 have been discovered.
 
-## Running the algorithm
-
-Git clone the repo and make sure you have python, pip, and virtualenv installed. Then execute the following in your terminal:
-
-```
-cd N-Queens-Genetic-Algorithm
-```
-```
-virtualenv env
-```
-```
-source env/bin/activate
-```
-```
-pip install -r requirements.txt
-```
-```
-python solver.py
-```
-
 ## The Chessboard
 
-To represent the position of the queens on the chess board I chose to use an array. The index of the array specifies the column of the queen, and the value at that index represents the row the queen is on. Take for example the array [0, 3, 3, 2]. This array represents a 4x4 chessboard with four queens on it. The first queen is on (column 0, row 0), second queen is on (column 1, row 3), the third is on (column 2, row 3), and the fourth is on (column 3, row 2).
+To represent the position of the queens on the chess board I chose to use an array. The index of the array specifies the column of the queen, and the value at that index represents the row the queen is on. Take for example the array [2,7,3,0,5,1,4,6]. This array represents an 8x8 chessboard with 8 queens on it (visualized using the bottom left board). The first queen is found on (column 0, row 2) and visualized on the chessboard by (columan a, row 3). The second queen is on (column 1, row 7) and visualized on the chessboard by (column b, row 8). This continues so on so forth for each queen. The board on the bottom right represents a solved board where no queen attakc are possible.
 
-
-| | col0 | col1 | col2 | col3 |
-| --- | --- | --- | --- | --- |
-| **row3** | | Q | Q | |  
-| **row2** | | | | Q |  
-| **row1** | | | | |  
-| **row0** | Q | | | |  
-
+![Image of unsolved board](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/evolution_svgs/chess1.svg)
+![Image of solved board](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/evolution_svgs/chess6.svg)
 
 ## The Chromosome
 
-In this algorithm a chromosome represents a configuration of queens on the board, whether or not they are in conflict with eachother. The array [0, 3, 3, 2] from above is a an example of a chromosome. Each value in the array is a 'gene' that makes up the chromosome.
+In this algorithm a chromosome represents a configuration of queens on the board, whether or not they are in conflict with eachother. The array [2,7,3,0,5,1,4,6] from above is a an example of a chromosome. Each value in the array is a 'gene' that makes up the chromosome.
 
 ## The Individual Class
 
@@ -67,8 +41,8 @@ The function does not check for a vertical collision because each index in the 1
 
 ## Result
 
-The below figure shows the results of running the algorithm to find all 92 solutions for N=8. The graph on the left shows the total number of generations it took to find all unique solutions. The graph on the right shows the frequency of generation sizes. We can see that too find most solutions it takes around 3 generations of evolution.
+The below gif shows the evolution process that transformed the top left board into the solution board on the right.
 
-![Image of Cost vs. Iterations](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/Figure_1.png)
+![Image of evolution process](https://github.com/AlexMotyka/N-Queens-Genetic-Algorithm/blob/master/Evolution.gif)
 
 
