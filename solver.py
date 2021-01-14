@@ -3,6 +3,10 @@ import numpy as np
 import chess
 import chess.svg
 
+# Number of queens as well as board dimensions(NxN)
+N = 8
+POPULATION_SIZE = 4000
+
 class Individual(object):
     '''
         This class represents an individual within the population. Each
@@ -11,16 +15,16 @@ class Individual(object):
         the queens have
     '''
 
-    def __init__(self, chromosome, N):
+    def __init__(self, chromosome):
         self.chromosome = chromosome
-        self.N = N
         self.fitness = self.calc_fitness()
 
 
 
     def mutate(self):
         # random mutation in the gene
-        return random.randint(0, self.N-1)
+        global N
+        return random.randint(0, N-1)
 
 
 
@@ -37,7 +41,7 @@ class Individual(object):
                 child.append(gene2)
             else:
                 child.append(self.mutate())
-        return Individual(child, self.N)
+        return Individual(child)
 
 
 
@@ -50,6 +54,7 @@ class Individual(object):
             create chromosomes (a chromosome will at most have one queen per
             column)
         '''
+        global N
         # initial fitness is perfect 0
         fitness = 0
         # column of current queen
@@ -60,7 +65,7 @@ class Individual(object):
             # the column of the next queen
             x2 = x1 + 1
             # loop through the remaing queens in the chromosome to check for attacks
-            while x2 < self.N:
+            while x2 < N:
                 # the row value at index x2
                 y2 = self.chromosome[x2]
                 # check for horizontal collision (same row)
@@ -76,14 +81,16 @@ class Individual(object):
 
 
 # create a chromosome with random genes
-def createChromosome(N):
+def createChromosome():
+    global N
     chromosome = []
     for i in range(N):
         # random int between 0 and the Chessboard size
         chromosome.append(random.randint(0, N-1))
     return chromosome
 
-def generateBoard(top_chromosome, N):
+def generateBoard(top_chromosome):
+    global N
     board_config = ""
         
     for queen_pos in top_chromosome:
@@ -99,8 +106,12 @@ def generateBoard(top_chromosome, N):
 
     return svg
 
+def main():
+    solution = evolution()
+
 # TODO: this is where we will receive user input from angular
-def evolution(POPULATION_SIZE, N):
+def evolution():
+    global POPULATION_SIZE
 
     gen = 1
     found_solution = False
@@ -109,8 +120,8 @@ def evolution(POPULATION_SIZE, N):
     # create the initial population
     for i in range(POPULATION_SIZE):
         # random chromosome for each individual
-        chromosome = createChromosome(N)
-        population.append(Individual(chromosome, N))
+        chromosome = createChromosome()
+        population.append(Individual(chromosome))
 
     # TODO: While we don't have a soltuion generate and emit the chessboard svg text
     # TODO: Save svg in local file
@@ -146,22 +157,22 @@ def evolution(POPULATION_SIZE, N):
 
         # generate the a chessboard svg of the top chromosome of the population
         top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
-        svg = generateBoard(top_chromosome, N)
+        svg = generateBoard(top_chromosome)
 
         svg_file = open("chess" + str(gen) + ".svg", "w")
         svg_file.write(svg)
         svg_file.close()
-
-        yield svg
 
         gen += 1
 
     # TODO: When we have our solution svg emit it and then emit 200 to signal that no more data will be sent
     # print the solution chromosome
     top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
-    svg = generateBoard(top_chromosome, N)
+    svg = generateBoard(top_chromosome)
 
     svg_file = open("chess" + str(gen) + ".svg", "w")
     svg_file.write(svg)
     svg_file.close()
-    yield svg
+
+if __name__ == '__main__':
+    main()
