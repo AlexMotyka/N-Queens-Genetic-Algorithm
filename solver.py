@@ -1,22 +1,13 @@
 import random
-import matplotlib.pyplot as plt
 import numpy as np
+import chess
+import chess.svg
+import os
+import glob
 
 # Number of queens as well as board dimensions(NxN)
 N = 8
 POPULATION_SIZE = 4000
-# Array to store all unique solutions found
-solutions = []
-
-# Cumulative generations evolved
-total_generations = 1
-# Count of unique solutions found
-total_solutions = 0
-# Generation sizes for histogram
-generation_frequencies = []
-# Array at index 0 stores a list of total_generations after each evolution process
-# Array at index 1 stores a list of total_solutions after each evolution process
-cumulative_gen_data = [[],[]]
 
 class Individual(object):
     '''
@@ -100,64 +91,37 @@ def createChromosome():
         chromosome.append(random.randint(0, N-1))
     return chromosome
 
+def generateBoard(top_chromosome):
+    global N
+    board_config = ""
+        
+    for queen_pos in top_chromosome:
+        if int(queen_pos) == (N-1):
+            board_config += queen_pos + "Q/"
+        elif int(queen_pos) == 0:
+            board_config += "Q" + str(N-1) + "/"
+        else:
+            board_config += queen_pos + "Q" + str((N-1)-int(queen_pos)) + "/"
+
+    board = chess.Board(board_config[:-1])
+    svg = chess.svg.board(board, size=350)
+
+    return svg
+
+
+def clearFolder(path):
+    files = glob.glob(path)
+    for f in files:
+        os.remove(f)
 
 
 def main():
-    global total_solutions
-    global total_generations
-    global cumulative_gen_data
-    global generation_frequencies
+    clearFolder('./evolution_svgs/*')
+    solution = evolution()
 
-
-    # until we find 92 unique solutions keep evolving to find new solutions
-    while len(solutions) < 92:
-        new_solution = evolution()
-        if new_solution:
-            print("Found new solution. Total found: " + str(len(solutions)))
-            total_solutions += 1
-        else:
-            print("Found already existing solution.")
-
-        cumulative_gen_data[0].append(total_generations)
-        cumulative_gen_data[1].append(total_solutions)
-
-    for solution in solutions:
-        print(solution)
-
-    # create a figure with two subplots
-    plt.figure(figsize=(8,5))
-
-    # cumulative generation graph
-    plt.subplot(1,2,1)
-    plt.plot(cumulative_gen_data[0], cumulative_gen_data[1], 'ro')
-    plt.tight_layout(pad=3.0)
-    plt.text(20, 92, r'Total Generations: ' + str(cumulative_gen_data[0][-1]))
-    plt.grid(True)
-    plt.title('# of Generations to Find All Solutions')
-    plt.xlabel('# of Generations')
-    plt.ylabel('# of Solutions Found')
-
-    # generation frequency histogram
-    plt.subplot(1,2,2)
-    plt.tight_layout(pad=3.0)
-    n, bins, patches = plt.hist(x=generation_frequencies, bins='auto', color='#0504aa', alpha=0.7, rwidth=1)
-    plt.grid(axis='y', alpha=0.75)
-    plt.grid(True)
-    plt.xlabel('# of Generations for Solution')
-    plt.ylabel('Frequency')
-    plt.title('Histogram of Generation Sizes')
-    maxfreq = n.max()
-    # Set a clean upper y-axis limit.
-    plt.ylim(ymax=np.ceil(maxfreq / 10) * 10 if maxfreq % 10 else maxfreq + 10)
-
-    # display the plots
-    plt.show()
-
-
+# TODO: this is where we will receive user input from angular
 def evolution():
     global POPULATION_SIZE
-    global solutions
-    global total_generations
 
     gen = 1
     found_solution = False
@@ -169,6 +133,8 @@ def evolution():
         chromosome = createChromosome()
         population.append(Individual(chromosome))
 
+    # TODO: While we don't have a soltuion generate and emit the chessboard svg text
+    # TODO: Save svg in local file
     while not found_solution:
         # sort the population by ascending fitness
         population = sorted(population, key = lambda x:x.fitness)
@@ -199,27 +165,24 @@ def evolution():
         # discard the old pop and replace it with the new gen
         population = next_gen
 
-        # print("Generation: {}\tChromosome: {}\tFitness: {}".format(gen,
-        #       "".join(str(gene) for gene in population[0].chromosome),
-        #       population[0].fitness))
+        # generate the a chessboard svg of the top chromosome of the population
+        top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
+        svg = generateBoard(top_chromosome)
+
+        svg_file = open("./evolution_svgs/chess" + str(gen) + ".svg", "w")
+        svg_file.write(svg)
+        svg_file.close()
 
         gen += 1
-        total_generations += 1
 
-    generation_frequencies.append(gen)
+    # TODO: When we have our solution svg emit it and then emit 200 to signal that no more data will be sent
+    # print the solution chromosome
+    top_chromosome = "".join(str(gene) for gene in population[0].chromosome)
+    svg = generateBoard(top_chromosome)
 
-    # # print the solution chromosome
-    # print("Generation: {}\tChromosome: {}".format(gen,
-    #       "".join(str(gene) for gene in population[0].chromosome)))
-
-    # check if the solution is unique
-    if population[0].chromosome not in solutions:
-        solutions.append(population[0].chromosome)
-        return True
-    else:
-        return False
-
-
+    svg_file = open("./evolution_svgs/chess" + str(gen) + ".svg", "w")
+    svg_file.write(svg)
+    svg_file.close()
 
 if __name__ == '__main__':
     main()
